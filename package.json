@@ -1,0 +1,22 @@
+{
+  "name": "me-time",
+  "version": "1.0.0",
+  "description": "Monitor your time on screen and on the internet",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/primidac/ME-time.git"
+  },
+  "author": "Primidac",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/primidac/ME-time/issues"
+  },
+  "homepage": "https://github.com/primidac/ME-time#readme",
+  "dependencies": {
+    "electron": "^7.1.2"
+  }
+}
