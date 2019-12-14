@@ -12,8 +12,10 @@ function createWindow () {
     let mainWindow = new BrowserWindow({
         width: 800,
         height: 600,
+        frame: false,
+        fullscreen: true
 })
-mainWindow.loadFile('index.html')
+mainWindow.loadFile('app/index.html')
 
 mainWindow.on('closed', function () {
     mainWindow = null
